@@ -2,7 +2,7 @@ import { View, Text } from "react-native";
 import React, { useMemo, useState } from "react";
 import { Link, Stack } from "expo-router";
 import ExploreHeader from "@/components/ExploreHeader";
-import Listing from "@/components/Listing";
+import Listing from "@/components/Listings";
 import ListingData from "@/assets/data/airbnb-listings.json";
 
 const Page = () => {
