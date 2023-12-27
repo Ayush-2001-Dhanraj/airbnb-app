@@ -7,9 +7,10 @@ interface Props {
 }
 
 const Listing = ({ listings, category }: Props) => {
-  useEffect(() => {
-    console.log("Reloading listing", listings.length);
-  }, [category]);
+  // useEffect(() => {
+  //   console.log("Reloading listing", listings.length);
+  //   console.log("Reloading category", category);
+  // }, [category]);
   return (
     <View>
       <Text>Listing</Text>
