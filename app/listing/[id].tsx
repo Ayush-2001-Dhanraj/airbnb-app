@@ -35,7 +35,7 @@ const Page = () => {
   const scrollOffset = useScrollViewOffset(scrollRef);
   const navigation = useNavigation();
 
-  const imageAnimatedSyles = useAnimatedStyle(() => {
+  const imageAnimatedStyles = useAnimatedStyle(() => {
     return {
       transform: [
         {
@@ -108,7 +108,7 @@ const Page = () => {
       >
         <Animated.Image
           source={{ uri: listing.xl_picture_url }}
-          style={[styles.image, imageAnimatedSyles]}
+          style={[styles.image, imageAnimatedStyles]}
         />
         <View style={styles.infoContainer}>
           <Text style={styles.name}>{listing.name}</Text>
