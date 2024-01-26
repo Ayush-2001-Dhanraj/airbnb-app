@@ -6,6 +6,7 @@ import Listing from "@/components/Listings";
 import ListingData from "@/assets/data/airbnb-listings.json";
 import ListingGeoData from "@/assets/data/neighborhoods.geo.json";
 import ListingsMap from "@/components/ListingsMap";
+import ListingsBottomSheet from "@/components/ListingsBottomSheet";
 
 const Page = () => {
   const [category, setCategory] = useState("");
@@ -23,6 +24,7 @@ const Page = () => {
       />
       {/* <Listing listings={items} category={category} /> */}
       <ListingsMap listings={ListingGeoData} />
+      <ListingsBottomSheet listings={items} category={category} />
     </View>
   );
 };
