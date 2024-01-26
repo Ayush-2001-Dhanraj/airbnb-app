@@ -12,26 +12,28 @@ import { Link } from "expo-router";
 import { ListingInterface } from "@/interfaces/listing";
 import { Ionicons } from "@expo/vector-icons";
 import Animated, { FadeInRight, FadeOutLeft } from "react-native-reanimated";
+import { defaultStyles } from "@/constants/Styles";
 
 interface Props {
   listings: any[];
   category: string;
+  refresh: number;
 }
 
-const Listings = ({ listings: items, category }: Props) => {
+const Listings = ({ listings: items, category, refresh }: Props) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const listRef = useRef<FlatList>(null);
 
   useEffect(() => {
-    console.log("Reloading listing", items.length);
-    console.log("Reloading category", category);
-
     setIsLoading(true);
-
     setTimeout(() => {
       setIsLoading(false);
     }, 200);
   }, [category]);
+
+  useEffect(() => {
+    console.log("Refresh");
+  }, [refresh]);
 
   const renderRow: ListRenderItem<ListingInterface> = ({ item }) => (
     <Link href={`/listing/${item.id}`} asChild>
@@ -79,11 +81,14 @@ const Listings = ({ listings: items, category }: Props) => {
   );
 
   return (
-    <View>
+    <View style={defaultStyles.container}>
       <FlatList
         ref={listRef}
         renderItem={renderRow}
         data={isLoading ? [] : items}
+        ListHeaderComponent={
+          <Text style={styles.info}>{items.length} Homes</Text>
+        }
       />
     </View>
   );
@@ -94,4 +99,10 @@ export default Listings;
 const styles = StyleSheet.create({
   listing: { padding: 16, gap: 10, marginVertical: 16 },
   image: { width: "100%", height: 300, borderRadius: 8 },
+  info: {
+    fontFamily: "mon-sb",
+    textAlign: "center",
+    marginTop: 4,
+    fontSize: 16,
+  },
 });
