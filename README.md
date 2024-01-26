@@ -14,20 +14,19 @@ This React Native application draws inspiration from Airbnb, aiming to provide u
 ## Screenshots
 
 ### Login Screen
-![Login Screen](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/a0cc8300-7428-462a-9387-285e6d72e083)
+<img src="images/home_screen.png](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/a0cc8300-7428-462a-9387-285e6d72e083" alt="Home Screen" width="400"/>
 
 ### Home Screen
-![Home Screen](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/01f30e1e-5d43-4511-a96c-8efc70307cc9)
+<img src="images/home_screen.png](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/01f30e1e-5d43-4511-a96c-8efc70307cc9" alt="Home Screen" width="400"/>
 
 #### Slide sheet to view the map
-![Slide sheet to view the map](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/7016d72f-8fbd-406c-a796-1bb0f3174144)
+<img src="images/home_screen.png](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/7016d72f-8fbd-406c-a796-1bb0f3174144" alt="Home Screen" width="400"/>
 
 #### View Map
-![View Map](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/7e8198ce-8f32-4100-9045-a01357584926)
+<img src="images/home_screen.png](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/7e8198ce-8f32-4100-9045-a01357584926" alt="Home Screen" width="400"/>
 
 ### Listing Page
-![Listing Page](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/194901e1-db0e-4630-b12d-50e44777b593)
-
+<img src="images/home_screen.png](https://github.com/Ayush-2001-Dhanraj/airbnb-app/assets/51990367/194901e1-db0e-4630-b12d-50e44777b593" alt="Home Screen" width="400"/>
 
 ## How to Contribute
 
