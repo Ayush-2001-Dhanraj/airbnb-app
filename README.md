@@ -6,7 +6,7 @@ This React Native application draws inspiration from Airbnb, aiming to provide u
 
 ## Features
 
-- **User Authentication:** Secure user authentication by Clerk for personalized experiences.
+- **User Authentication:** Secure user authentication for personalized experiences.
 - **Property Listings:** Browse a wide range of property listings with detailed information and images.
 - **Map Visualization:** Visualize the listings across the globe using Google Maps.
 - **Search and Filters:** Efficiently search for accommodations based on location, price range, and amenities.
